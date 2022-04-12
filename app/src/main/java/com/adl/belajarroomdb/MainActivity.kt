@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                     R.id.radioButton3 -> "opsi 3"
                     else -> "no opsi"
                 }
-                Toast.makeText(this@MainActivity, "pilihan nya adalah : ${result}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity, "pilihan nya adalah : : ${result}", Toast.LENGTH_SHORT).show()
             }
         })
 
